@@ -1,0 +1,12 @@
+[package]
+name = "RustyShell"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.68"                                # error handling
+bytes = "1.3.0"                                  # helps manage buffers
+env = "1.0.1"
+pathsearch = "0.2.0"
+thiserror = "1.0.38"                             # error handling
+shlex = "1.3"
